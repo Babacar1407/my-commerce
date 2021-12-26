@@ -1,7 +1,8 @@
 const  data = {
     products : [
         {
-            name : "shirt",
+            name : "mon shirt",
+            slug : "mes shirt",
             categorie : 'shirt',
             image : '/image/shirt1.jpg',
             price : 70,
@@ -13,6 +14,7 @@ const  data = {
         },
         {
             name : "shirt",
+            slug : "ma free shirt",
             categorie : 'shirt',
             image : '/image/shirt1.jpg',
             price : 70,
@@ -24,6 +26,7 @@ const  data = {
         },
         {
             name : "shirt",
+            slug : "a shirt",
             categorie : 'shirt',
             image : '/image/shirt1.jpg',
             price : 70,
@@ -35,6 +38,7 @@ const  data = {
         },
         {
             name : "shirt",
+            slug : "defree shirt",
             categorie : 'shirt',
             image : '/image/shirt1.jpg',
             price : 70,
@@ -46,7 +50,8 @@ const  data = {
         },
         {
             name : "shirt",
-            categorie : 'shirt',
+            slug : "shirt",
+            categorie : ' defree shirt',
             image : '/image/shirt1.jpg',
             price : 70,
             brand : 'Nike',
@@ -57,6 +62,7 @@ const  data = {
         },
         {
             name : "shirt",
+            slug : "free shirt",
             categorie : 'shirt',
             image : '/image/shirt1.jpg',
             price : 70,
