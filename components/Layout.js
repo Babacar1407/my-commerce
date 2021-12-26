@@ -4,7 +4,7 @@ import NextLink from 'Next/link'
 import { AppBar, Container, Toolbar, Typography,Link } from '@material-ui/core'
 import useStyle from '../utils/Style'
 
-export default function Layout({children}){
+export default function Layout({title,children}){
     
     const classes = useStyle()
     
@@ -12,7 +12,7 @@ export default function Layout({children}){
         <div>
             <Head>
                 <title>
-                    My Commerce
+                   {title ? `${title} - My commerce ` : 'my commerce'}
                 </title>
             </Head>
             <AppBar position = "static" className = {classes.navbar}>
